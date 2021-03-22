@@ -2,6 +2,14 @@
 
 *A mostly reasonable approach to Unreal Engine 4 - JPL style*
 
+So, what does this mean?
+
+This is basically a guideline for asset naming and best practices when dealing with our project. Sticking to this guide for file naming conventions will help us maintain the projects readability and ease of access. 
+
+But why is there any need for this?
+
+This is a community project, which will mean that there'll be quite a lot of different people working on this. If everyone will follow their own standards, we'll end up in a similar situation that the old MWLL flash code was, and it wasn't pretty with hundreds of "Button00123"'s.
+
 ## Important Terminology
 
 <a name="terms-level-map"></a>
