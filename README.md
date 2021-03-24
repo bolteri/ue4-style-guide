@@ -145,19 +145,19 @@ Depending on how your asset variants are made, you can chain together variant na
 | ----------------------- | ---------------------------------------------------------- |
 | Skeletal Mesh           | Bob_SK                                                     |
 | Material                | Bob_M                                                      |
-| Texture (Diffuse/Albedo)| Bob_T_D                                                    |
-| Texture (Normal)        | Bob_T_N                                                    |
-| Texture (Evil Diffuse)  | Bob_Evil_T_D                                               |
+| Texture (Diffuse/Albedo)| Bob_TD                                                     |
+| Texture (Normal)        | Bob_TN                                                     |
+| Texture (Evil Diffuse)  | Bob_Evil_TD                                                |
 
 ##### 1.1e2 Rocks
 
-| Asset Type              | Asset Name                                                 |
-| ----------------------- | ---------------------------------------------------------- |
+| Asset Type              | Asset Name                                                  |
+| ----------------------- | ----------------------------------------------------------  |
 | Static Mesh (01)        | Rock_SM_01                                                  |
 | Static Mesh (02)        | Rock_SM_02                                                  |
 | Static Mesh (03)        | Rock_SM_03                                                  |
-| Material                | Rock_M                                                     |
-| Material Instance (Snow)| Rock_MI_Snow                                               |
+| Material                | Rock_M                                                      |
+| Material Instance (Snow)| Rock_MI_Snow                                                |
 
 <a name="asset-name-modifiers"></a>
 <a name="1.2"></a>
@@ -322,11 +322,11 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | -------------------------- | ---------- | ---------- | -------------------------------- |
 | Animated Vector Field      |            | _VFA       |                                  |
 | Camera Anim                |            | _CA        |                                  |
-| Color Curve                |            | _Curve_Color|                                  |
-| Curve Table                |            | _Curve_Table|                                  |
+| Color Curve                |            | _CurveC    |                                  |
+| Curve Table                |            | _CurveT    |                                  |
 | Data Asset                 |            | _*         | Suffix should be based on class. |
 | Data Table                 |            | _DT        |                                  |
-| Float Curve                |            | _Curve_Float|                                  |
+| Float Curve                |            | _CurveF    |                                  |
 | Foliage Type               |            | _FT        |                                  |
 | Force Feedback Effect      |            | _FFE       |                                  |
 | Landscape Grass Type       |            | _LG        |                                  |
@@ -340,7 +340,7 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | Substance Graph Instance   |            | _SGI       |                                  |
 | Substance Instance Factory |            | _SIF       |                                  |
 | Touch Interface Setup      |            | _TI        |                                  |
-| Vector Curve               |            | _Curve_Vector|                                  |
+| Vector Curve               |            | _CurveV    |                                  |
 
 <a name="anc-paper2d"></a>
 <a name="1.2.8"></a>
@@ -377,7 +377,7 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | Sound Attenuation       |            | _ATT       |                                  |
 | Sound Class             |            |            | No prefix/suffix. Should be put in a folder called SoundClasses |
 | Sound Concurrency       |            | _SC        | Should be named after a SoundClass |
-| Sound Cue               |            | _A_Cue     |                                  |
+| Sound Cue               |            | _ACue     |                                  |
 | Sound Mix               |            | _Mix       |                                  |
 | Sound Wave              |            | _A         |                                  |
 
