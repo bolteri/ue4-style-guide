@@ -153,9 +153,9 @@ Depending on how your asset variants are made, you can chain together variant na
 
 | Asset Type              | Asset Name                                                 |
 | ----------------------- | ---------------------------------------------------------- |
-| Static Mesh (01)        | Rock_S_01                                                  |
-| Static Mesh (02)        | Rock_S_02                                                  |
-| Static Mesh (03)        | Rock_S_03                                                  |
+| Static Mesh (01)        | Rock_SM_01                                                  |
+| Static Mesh (02)        | Rock_SM_02                                                  |
+| Static Mesh (03)        | Rock_SM_03                                                  |
 | Material                | Rock_M                                                     |
 | Material Instance (Snow)| Rock_MI_Snow                                               |
 
