@@ -205,13 +205,13 @@ Note: For JPL we'll be using suffixes for the majority of files
 | Level (Lighting)        |            | _Lighting  |                                  |
 | Level (Geometry)        |            | _Geo       |                                  |
 | Level (Gameplay)        |            | _Gameplay  |                                  |
-| Blueprint               |            | _BP_       |                                  |
-| Material                |            | _M_        |                                  |
-| Static Mesh             |            | _S_        | Many use SM_. We use S_.         |
-| Skeletal Mesh           |            | _SK_       |                                  |
-| Texture                 |            | _T_?       | See [Textures](#anc-textures)    |
-| Particle System         |            | _PS_       |                                  |
-| Widget Blueprint        |            | _WBP_      |                                  |
+| Blueprint               |            | _BP       |                                  |
+| Material                |            | _M        |                                  |
+| Static Mesh             |            | _S        | Many use SM_. We use S_.         |
+| Skeletal Mesh           |            | _SK       |                                  |
+| Texture                 |            | _ T_?       | See [Textures](#anc-textures)    |
+| Particle System         |            | _PS       |                                  |
+| Widget Blueprint        |            | _WBP      |                                  |
     
 <a name="anc-animations"></a>
 <a name="1.2.2"></a>
@@ -298,7 +298,7 @@ Note: For JPL we'll be using suffixes for the majority of files
 | Texture (Mask)          |          | _T_M         |                                  |
 | Texture (Specular)      |          | _T_S         |                                  |
 | Texture (Metallic)      |          | _T_M         |                                  |
-| Texture (Packed)        |          | _T_*         | See notes below about [packing](#anc-textures-packing). |
+| Texture (Packed)        |          | _ T_*         | See notes below about [packing](#anc-textures-packing). |
 | Texture Cube            |          | _TC          |                                  |
 | Media Texture           |          | _MT          |                                  |
 | Render Target           |          | _RT          |                                  |
