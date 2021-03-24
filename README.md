@@ -288,17 +288,17 @@ Note: For JPL we'll be using suffixes for the majority of files
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
 | Texture                 |          | _T           |                                  |
-| Texture (Diffuse/Albedo/Base Color)| | _T_D       |                                  |
-| Texture (Normal)        |          | _T_N         |                                  |
-| Texture (Roughness)     |          | _T_R         |                                  |
-| Texture (Alpha/Opacity) |          | _T_A         |                                  |
-| Texture (Ambient Occlusion) |      | _T_O         |                                  |
-| Texture (Bump)          |          | _T_B         |                                  |
-| Texture (Emissive)      |          | _T_E         |                                  |
-| Texture (Mask)          |          | _T_M         |                                  |
-| Texture (Specular)      |          | _T_S         |                                  |
-| Texture (Metallic)      |          | _T_M         |                                  |
-| Texture (Packed)        |          | _ T_*         | See notes below about [packing](#anc-textures-packing). |
+| Texture (Diffuse/Albedo/Base Color)| | _TD       |                                  |
+| Texture (Normal)        |          | _TN         |                                  |
+| Texture (Roughness)     |          | _TR         |                                  |
+| Texture (Alpha/Opacity) |          | _TA         |                                  |
+| Texture (Ambient Occlusion) |      | _TO         |                                  |
+| Texture (Bump)          |          | _TB         |                                  |
+| Texture (Emissive)      |          | _TE         |                                  |
+| Texture (Mask)          |          | _TM         |                                  |
+| Texture (Specular)      |          | _TS         |                                  |
+| Texture (Metallic)      |          | _TM         |                                  |
+| Texture (Packed)        |          | _T*         | See notes below about [packing](#anc-textures-packing). |
 | Texture Cube            |          | _TC          |                                  |
 | Media Texture           |          | _MT          |                                  |
 | Render Target           |          | _RT          |                                  |
@@ -351,8 +351,8 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 | Paper Flipbook          |            | _PFB       |                                  |
 | Sprite                  |            | _SPR       |                                  |
 | Sprite Atlas Group      |            | _SPRG      |                                  |
-| Tile Map                |            | _TM        |                                  |
-| Tile Set                |            | _TS        |                                  |
+| Tile Map                |            | _TIM        |                                  |
+| Tile Set                |            | _TIS        |                                  |
 
 <a name="anc-physics"></a>
 <a name="1.2.9"></a>
