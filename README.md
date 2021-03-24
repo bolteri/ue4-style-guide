@@ -273,7 +273,7 @@ Note: For JPL we'll be using suffixes for the majority of files
 | Asset Type                    | Prefix     | Suffix     | Notes                            |
 | ----------------------------- | ---------- | ---------- | -------------------------------- |
 | Material                      |            | _M         |                                  |
-| Material (Post Process)       |            | -PP        |                                  |
+| Material (Post Process)       |            | _PP        |                                  |
 | Material Function             |            | _MF        |                                  |
 | Material Instance             |            | _MI        |                                  |
 | Material Parameter Collection |            | _MPC       |                                  |
