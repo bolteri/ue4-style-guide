@@ -205,13 +205,13 @@ Note: For JPL we'll be using suffixes for the majority of files
 | Level (Lighting)        |            | _Lighting  |                                  |
 | Level (Geometry)        |            | _Geo       |                                  |
 | Level (Gameplay)        |            | _Gameplay  |                                  |
-| Blueprint               |            | _BP       |                                  |
-| Material                |            | _M        |                                  |
-| Static Mesh             |            | _S        | Many use SM_. We use S_.         |
-| Skeletal Mesh           |            | _SK       |                                  |
-| Texture                 |            | _ T_?       | See [Textures](#anc-textures)    |
-| Particle System         |            | _PS       |                                  |
-| Widget Blueprint        |            | _WBP      |                                  |
+| Blueprint               |            | _BP        |                                  |
+| Material                |            | _M         |                                  |
+| Static Mesh             |            | _SM        |                                  |
+| Skeletal Mesh           |            | _SK        |                                  |
+| Texture                 |            | _ T_?      | See [Textures](#anc-textures)    |
+| Particle System         |            | _PS        |                                  |
+| Widget Blueprint        |            | _WBP       |                                  |
     
 <a name="anc-animations"></a>
 <a name="1.2.2"></a>
