@@ -256,15 +256,15 @@ Note: For JPL we'll be using suffixes for the majority of files
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
-| Blueprint               |            |BP          |                                  |
-| Blueprint Component	  |            |BPComponent | I.e. Inventory_BPComponent       |
-| Blueprint Function Library |         |BPFL        |                                  |
-| Blueprint Interface     |            |BPI         |                                  |
-| Blueprint Macro Library |            |BPML        | Do not use macro libraries if possible. |
-| Enumeration             |            |E           | No underscore.                   |
-| Structure               |            |S           | No underscore.                   |
-| Tutorial Blueprint      |            |TBP         |                                  |
-| Widget Blueprint        |            |WBP         |                                  |
+| Blueprint               |            | _BP          |                                |
+| Blueprint Component	  |            | _BPComponent | I.e. Inventory_BPComponent     |
+| Blueprint Function Library |         | _BPFL        |                                |
+| Blueprint Interface     |            | _BPI         |                                |
+| Blueprint Macro Library |            | _BPML        | Do not use macro libraries if possible. |
+| Enumeration             |            | _E           |                                |
+| Structure               |            | _S           |                                |
+| Tutorial Blueprint      |            | _TBP         |                                |
+| Widget Blueprint        |            | _WBP         |                                |
 
 <a name="anc-materials"></a>
 <a name="1.2.5"></a>
@@ -279,7 +279,7 @@ Note: For JPL we'll be using suffixes for the majority of files
 | Material Parameter Collection |            | _MPC       |                                  |
 | Subsurface Profile            |            | _SP        |                                  |
 | Physical Materials            |            | _PM        |                                  |
-| Decal                         |            | _M, _MI,_Decal |                                  |
+| Decal                         |            | _M, _MI,_Decal |                              |
 
 <a name="anc-textures"></a>
 <a name="1.2.6"></a>
