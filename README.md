@@ -261,8 +261,8 @@ Note: For JPL we'll be using suffixes for the majority of files
 | Blueprint Function Library |         |BPFL        |                                  |
 | Blueprint Interface     |            |BPI         |                                  |
 | Blueprint Macro Library |            |BPML        | Do not use macro libraries if possible. |
-| Enumeration             | E          |            | No underscore.                   |
-| Structure               | F or S     |            | No underscore.                   |
+| Enumeration             |            |E           | No underscore.                   |
+| Structure               |            |S           | No underscore.                   |
 | Tutorial Blueprint      |            |TBP         |                                  |
 | Widget Blueprint        |            |WBP         |                                  |
 
