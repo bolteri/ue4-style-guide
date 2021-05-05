@@ -20,18 +20,16 @@ The word 'map' generally refers to what the average person calls a 'level' and m
 <a name="terms-cases"></a>
 ##### Cases
 
-There are a few different ways you can name things. Here are some common casing types:
-
-> ###### PascalCase
+> ###### PascalCase - BP
 >
 > Capitalize every word and remove all spaces, e.g. `DesertEagle`, `StyleGuide`, `ASeriesOfWords`.
 > Usually best to use Pascal for BPs
 > 
-> ###### camelCase
+> ###### camelCase - C++
 >
 > The first letter is always lowercase but every following word starts with uppercase, e.g. `desertEagle`, `styleGuide`, `aSeriesOfWords`.
 >
-> ###### Snake_case
+> ###### Snake_case - Project files
 >
 > Words can arbitrarily start upper or lowercase but words are separated by an underscore, e.g. `desert_Eagle`, `Style_Guide`, `a_Series_of_Words`.
 > Use this for naming files in the project
